@@ -57,5 +57,17 @@
         app:layout_constraintTop_toBottomOf="@id/jiemi"
         />
 
+    <TextView
+        android:id="@+id/changeFinalText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="结果......"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/resultText"
+        />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
